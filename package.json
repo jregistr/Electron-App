@@ -1,0 +1,39 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "tsc" : "tsc",
+    "tsc:w" : "tsc -w"
+  },
+  "repository": "https://github.com/jregistr/Electron-App.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Jeff Registre",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/electron": "^1.4.35",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^7.0.12",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "electron": "~1.6.2",
+    "electron-devtools-installer": "^2.1.0",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-modules-require-hook": "^4.0.6",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
